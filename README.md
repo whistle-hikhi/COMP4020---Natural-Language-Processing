@@ -11,7 +11,7 @@ Detail of each lab problems will be update at each lab session.
 | Week | Topic | Slides | Problems |
 | --- | --- | --- | --- |
 | 01 | Intro to Course | | [Week 1](Week01/week01.md)| 
-| 02 | Word Vectors | | | 
+| 02 | NLP Tools | | | 
 | 03 | Backpropagation and Neural Network Basics | | | 
 | 04 | Language Models and RNNs | | | 
 | 05 | Transformers | | | 
@@ -23,7 +23,7 @@ Detail of each lab problems will be update at each lab session.
 | 11 | Benchmarking and Evaluation | | | 
 | 12 | Reasoning 1 | | | 
 | 13 | Reasoning 2 | | | 
-| 14 | | | | 
+| 14 | Word Vectors | | | 
 | 15 | | | | 
 | 16 | | | | 
 
