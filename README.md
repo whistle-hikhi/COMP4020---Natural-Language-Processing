@@ -11,7 +11,7 @@ Detail of each lab problems will be update at each lab session.
 | Week | Topic | Slides | Problems |
 | --- | --- | --- | --- |
 | 01 | Intro to Course | | [Week 1](Week01/week01.md)| 
-| 02 | NLP Tools | | | 
+| 02 | NLP Tools | | [Week 2](Week02/week02.md)| 
 | 03 | Backpropagation and Neural Network Basics | | | 
 | 04 | Language Models and RNNs | | | 
 | 05 | Transformers | | | 
