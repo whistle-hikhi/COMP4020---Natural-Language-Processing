@@ -73,6 +73,11 @@ for token in doc:
     # Your code here
     # Print out text and it POS
 
+
+doc = nlp("Apple bought a UK startup for $1 billion")
+for ent in doc.ents:
+    # Your code here
+    # Print out NER
 ```
 
 ### 💡 Discussion
