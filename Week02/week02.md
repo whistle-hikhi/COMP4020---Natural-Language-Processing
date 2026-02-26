@@ -60,7 +60,6 @@ print(preprocess(data[1]["text"]))
 
 - POS tagging
 - Named Entity Recognition
-- Dependency parsing
 
 ```python
 import spacy
