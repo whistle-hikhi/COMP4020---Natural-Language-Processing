@@ -77,7 +77,7 @@ $$
 
 > Iterate over consecutive pairs of tokens in the sequence. Use `math.log` and `math.exp`. Be careful with index bounds — the sum starts at $i=2$ (the second token).
 
-### Discussion Questions (answer 2–3)
+### Discussion Questions
 1. Compare `PP(test_1)` vs `PP(test_2)`: which is lower and why?
 2. What does add-one smoothing fix? What trade-off does it introduce?
 3. When would n-gram models struggle compared to transformers?
@@ -100,7 +100,7 @@ Implement `trigram_repetition_ratio(text)` that tokenizes the text and returns t
 
 > A ratio of 0 means no repeated trigrams. A ratio of 1 means every trigram is repeated. Tokenize simply with `text.split()`.
 
-### Discussion Questions (answer 2–3)
+### Discussion Questions
 1. Which decoding setting produced the most **creative** output? Which produced the most **stable** output?
 2. How did the repetition ratio change across settings?
 3. Why might sampling help or hurt factuality?
@@ -116,7 +116,7 @@ Complete the `checked` variable by calling `generator` with `prompt_check` alrea
 
 > Use `do_sample=True`, `temperature=0.7`, and a reasonable `max_new_tokens` (e.g. 150). Extract `[0]["generated_text"]` from the result.
 
-### Discussion Questions (answer 2–3)
+### Discussion Questions
 1. Did the model acknowledge uncertainty? Quote one phrase that signals uncertainty (or note if none appeared).
 2. Why do LLMs hallucinate (1–2 sentences)?
 3. Give one high-stakes domain where hallucination is especially risky and explain why.
@@ -137,7 +137,7 @@ The extraction and validation helpers are already provided. Your job is to **run
 
 > Understand what `extract_first_json` and `validate_payload` do. Run the validation cell and report whether the model followed the schema.
 
-### Discussion Questions (answer 2–3)
+### Discussion Questions
 1. Did the model follow the JSON format? If not, what went wrong?
 2. Why does forcing a structure sometimes reduce hallucination?
 3. Rewrite this vague prompt to be safer: **"What is the best financial model used today?"**
