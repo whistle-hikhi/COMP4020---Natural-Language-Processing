@@ -56,12 +56,12 @@ An n-gram language model estimates the probability of a token sequence by assumi
 
 ### Key Formula (Chain Rule + Bigram Assumption)
 
-For tokens \(w_1, w_2, \dots, w_N\):
+For tokens $w_1, w_2, \dots, w_N$:
 
-\[
+$$
 P(w_1^N) = P(w_1)\prod_{i=2}^{N} P(w_i \mid w_1^{i-1})
 \approx P(w_1)\prod_{i=2}^{N} P(w_i \mid w_{i-1})
-\]
+$$
 
 ### Coding Task A — Build Unigram and Bigram Counts
 
@@ -76,9 +76,9 @@ Given a tokenized corpus, build:
 
 Implement MLE (unsmoothed):
 
-\[
+$$
 P_{\text{MLE}}(w \mid w_{prev}) = \frac{c(w_{prev}, w)}{c(w_{prev})}
-\]
+$$
 
 Implement `p_bigram_mle(w_prev, w)`.
 
@@ -99,9 +99,9 @@ Unsmoothed n-gram models assign probability 0 to any unseen bigram, which makes 
 
 ### Key Formula (Add-one Smoothing)
 
-\[
+$$
 P_{\text{add1}}(w \mid w_{prev}) = \frac{c(w_{prev}, w) + 1}{c(w_{prev}) + V}
-\]
+$$
 
 ### Coding Task A — Add-one Bigram Probability
 
@@ -125,9 +125,9 @@ Implement `normalize_token(w, vocab)` that maps unseen words to `<UNK>`, and ens
 
 Compute the log probability of a sentence (with boundaries):
 
-\[
+$$
 \log P(w_1^N) \approx \sum_{i=2}^{N} \log P(w_i \mid w_{i-1})
-\]
+$$
 
 ### Coding Task A — Sentence Log Probability
 
@@ -135,9 +135,9 @@ Implement `sentence_logprob(tokens, p_bigram)` that returns the sum of log-proba
 
 ### Perplexity
 
-\[
+$$
 PP = \exp\left(-\frac{1}{N-1}\sum_{i=2}^{N}\log P(w_i \mid w_{i-1})\right)
-\]
+$$
 
 ### Coding Task B — Perplexity
 
@@ -185,11 +185,11 @@ Compute and report:
 
 ### Cosine Similarity
 
-For vectors \(u, v\):
+For vectors $u, v$:
 
-\[
+$$
 \cos(u,v) = \frac{u \cdot v}{\|u\|\|v\|}
-\]
+$$
 
 ### Coding Task A — Cosine Similarity
 
@@ -232,12 +232,12 @@ Given sequences of `(state, word)` pairs, estimate:
 
 Implement the forward recursion:
 
-\[
+$$
 \alpha_1(j)=\pi(j)B_j(x_1),\quad
 \alpha_t(j)=B_j(x_t)\sum_i \alpha_{t-1}(i)A_{ij}
-\]
+$$
 
-Return \(P(x_1^T)=\sum_j \alpha_T(j)\).
+Return $P(x_1^T)=\sum_j \alpha_T(j)$.
 
 **Hint:** Use log-space (`logsumexp`) if your sequences are long; otherwise, plain floats are fine for short labs.
 
@@ -245,10 +245,10 @@ Return \(P(x_1^T)=\sum_j \alpha_T(j)\).
 
 Implement Viterbi:
 
-\[
+$$
 \delta_1(j)=\pi(j)B_j(x_1),\quad
 \delta_t(j)=B_j(x_t)\max_i \delta_{t-1}(i)A_{ij}
-\]
+$$
 
 Also store backpointers to recover the best state path.
 
