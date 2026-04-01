@@ -13,9 +13,9 @@ Detail of each lab problems will be update at each lab session.
 | 01 | Intro to Course | | [Week 1](Week01/week01.md)| 
 | 02 | NLP Tools | [Week 2](https://docs.google.com/presentation/d/1g2lYaZaYKyd3Gz6muuC19UQAupuSgdY6Q0lwBw66OrQ/edit?usp=sharing) | [Week 2](Week02/week02.md)| 
 | 03 | Understanding Language Models – From N-grams to Prompt Engineering | | [Week 3](Week03/week03.md) | 
-| 04 | Language Models and RNNs | | | 
-| 05 | Transformers | | | 
-| 06 | Pretraining (Scaling, Systems, Data) | | | 
+| 04 | Counting, N-grams, Distributional Semantics, and HMMs | | [Week 4](Week04/week04.md) | 
+| 05 | Simple Neural Networks and Neural Language Models | | [Week 5](Week05/week05.md) | 
+| 06 | NLP Pipeline | | [Week 6](Week06/week06.md) | 
 | 07 | Post-training (RLHF, SFT, DPO) | | | 
 | 08 | Efficient Adaptation (Prompting + PEFT) | | | 
 | 09 | Agents, Tool Use, and RAG | | | 
