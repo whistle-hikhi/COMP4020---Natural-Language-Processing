@@ -18,3 +18,5 @@
 • There are multiple Python notebooks and a pip installable library which you can test out to see how this works:
 • https://github.com/SpaceTimeNarratives/demo
 • https://github.com/SpaceTimeNarratives/spatio-textual
+
+Submit in .ipynb file
