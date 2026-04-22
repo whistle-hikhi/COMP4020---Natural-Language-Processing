@@ -16,8 +16,8 @@ Detail of each lab problems will be update at each lab session.
 | 04 | Counting, N-grams, Distributional Semantics, and HMMs | | [Week 4](Week04/week04.md) | 
 | 05 | Simple Neural Networks and Neural Language Models | | [Week 5](Week05/week05.md) | 
 | 06 | NLP Pipeline | | [Week 6](Week06/week06.md) | 
-| 07 | Post-training (RLHF, SFT, DPO) | | | 
-| 08 | Efficient Adaptation (Prompting + PEFT) | | | 
+| 07 | Semantic Annotation with USAS and PyMUSAS | | [Week 7](Week07/week07.md) | 
+| 08 | Data Annotation for NLP | | [Week 8](Week08/week08.md) | 
 | 09 | Agents, Tool Use, and RAG | | | 
 | 10 | Hugging Face Transformers Tutorial | | | 
 | 11 | Benchmarking and Evaluation | | | 
